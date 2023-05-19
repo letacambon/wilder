@@ -5,7 +5,7 @@ import seaborn as sns
 
 st.title('Hello Wilders, welcome to my application!')
 
-cars = pd.read_csv('C:\Formation\odyssey csv\cars.csv')
+cars = pd.read_csv('cars.csv')
 
 viz_correlation = sns.heatmap(cars.corr(), 
 								center=0,
